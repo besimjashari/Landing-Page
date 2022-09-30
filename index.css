@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar,
+footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 0 300px;
+    height: 50px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .description h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.description p, .button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 15px;
+}
+.logo{
+    font-size:24px;
+    color: #f9faf8;
+}
+button{
+    background-color: #3882f6;
+}
+.info h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.quote{
+    background-color: #e5e7eb;
+}
+.quote em{
+    font-size: 36px;
+    color: #1f2937;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+    height: 600px;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 15px;
+}
+.description .button{
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+}
+.view img{
+    width: 600px;
+    height: 300px;
+}
+.info h2 {text-align: center;
+
+}
+.info{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px;
+    justify-content: center;
+    gap: 40px;
+}
+.foto{
+    display: flex;
+    gap: 30px;
+}
+.img-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-text img{
+    width: 300px;
+}
+
+.quote{
+    height: 400px;
+    padding: 0 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote h4{
+    align-self: flex-end;
+}
+
+.fund{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.product{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #3882f6;
+    padding: 0 100px;
+    border-radius: 10px;
+}
+.text{
+    font-size: large;
+    color: #f9faf8;
+}
+
+.button2{
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #f9faf8;
+    background-color:#3882f6;
+
+}
+button:hover{
+    background-color: blue;
+}
